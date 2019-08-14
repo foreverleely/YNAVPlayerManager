@@ -1,12 +1,12 @@
 //
-//  YNCAVPlayerManager.m
-//  YNCommonUtilsDemo
+//  YNAVPlayerManager.m
+//
 //
 //  Created by liyangly on 2019/7/11.
 //  Copyright © 2019 liyang. All rights reserved.
 //
 
-#import "YNCAVPlayerManager.h"
+#import "YNAVPlayerManager.h"
 
 @interface YNAVPlayerManager ()
 
