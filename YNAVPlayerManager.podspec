@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "YNAVPlayerManager"
-  spec.version      = "1.0.2"
+  spec.version      = "1.0.3"
   spec.summary      = "AVPlayer Manager"
 
   # This description is used to generate tags and improve search results.
@@ -116,7 +116,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.framework  = "SomeFramework"
-  # spec.frameworks = "SomeFramework", "AnotherFramework"
+  spec.frameworks = "UIKit", "AVFoundation"
 
   # spec.library   = "iconv"
   # spec.libraries = "iconv", "xml2"
@@ -131,6 +131,5 @@ Pod::Spec.new do |spec|
   # spec.requires_arc = true
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  spec.dependency "AVFoundation"
 
 end
